@@ -1,12 +1,11 @@
 ---
-date: 2024-10-20
+date: 
+    cretred: 2024-10-20
 ---
 
 # Install -`material mkdocs`
 
 October 16, 2024
-
-> HTML created using `Draft` and `Marked 2` Steaming Preview
 
 ## Environment 
 

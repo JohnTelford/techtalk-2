@@ -1,3 +1,7 @@
 site_name: TehTalkJohn
 site_description: TecTalk
 site_url: https://github.com/JohnTelford/techtalkjohn-2
+
+theme:
+  name: material
+ 
