@@ -1,0 +1,1 @@
+TechTalkJohn posts interesting technology.

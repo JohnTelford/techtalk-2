@@ -1,0 +1,110 @@
+site_name: Blog - TechTalkJohn
+site_description: techtalkjohn blog
+site_url: https://github.com/JohnTelford/techtalkjohn
+
+theme:
+  name: material
+ 
+  features:
+    - toc.integrate
+  
+    - navigation.expand
+    - navigation.indexes
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top   
+    - navigation.tracking
+
+    - search.suggest
+    - search.highlight
+
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime
+
+plugins:
+  - blog
+  - search
+
+#  archive_date_format: MMMM yyyy
+
+categories_allowed:
+  - TEST
+  - Raycast
+  - New
+  - article
+
+  - tags
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.mark
+  - attr_list
+
+nav:
+  #  - Home: index.md
+  - Blog:
+    - blog/article.md
+   
+# nav:
+#   - Home: index.md
+
+#   - Command and Control: command_and_control.md
+
+#   - Dev Stack: dev_stack.md
+
+#   #- Glossary: glossary.md
+
+#   - Overview: overview.md
+
+#   - Teams:
+#       - Team Overview: team_overview.md
+#       - Team Define: team_define.md
+#       # - Team Minednode Define: MindNode Define.md
+#       # - Team Minednode Design: MindNode Desing.md
+#       - Team Develop: team_develop.md
+#       - Team Deploy: team_deploy.md
+#       - Team Maintenance: team_maintenance.md
+
+#   - Technology Docs: tech_docs.md
+
+#   - Technology Reference: tech_ref.md
+
+#   - Workstations: workstations.md
+
+
+
+copyright: Copyright &copy; 2024 John M. Telford
+
