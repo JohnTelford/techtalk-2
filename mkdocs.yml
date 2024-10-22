@@ -10,14 +10,14 @@ theme:
 markdown_extensions:
   - footnotes
 
-# plugins:
-#   - search
-#   - blog:
-#       blog_toc: true
-#       archive_date_format: October 2024
-#       categories_allowed:
-#           - Install
-#           - Deploy
+plugins:
+  - search
+  # - blog:
+      # blog_toc: true
+      # archive_date_format: October 2024
+      # categories_allowed:
+      #     - Install
+      #     - Deploy
 # nav:
 #    - Home: index.md
 #    - Blog:
