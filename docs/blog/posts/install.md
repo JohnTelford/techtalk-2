@@ -2,7 +2,7 @@
 date:
     created: 2024-10-21
 categories: 
-    - Article
+    - Install
 ---
 
 # Install Material Mkdocs Blog
@@ -61,14 +61,12 @@ docs
 ```
 
 Create a file `docs/blog/posts/myfirst.md` with the following contents:
-    
-````
+
 ---
 date:
     created: 2023-12-31
 ---
-```
-`
+
 ## First-Level Heading
 
 The blog plugin automatically creates navigation elements for the blog. The index page shows only the extract. When you select the "Continue

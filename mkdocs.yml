@@ -4,10 +4,23 @@ site_url: https://github.com/JohnTelford/techtalkjohn-2
 
 theme:
   name: material
- 
+  features:
+    - navigation.indexes
+
+markdown_extensions:
+  - footnotes
+
 plugins:
-- search
-- blog:
-    archive_date_format: MMMM УУУУ
-    categories_allowed:
-        - Article
+  - search
+  - blog:
+      blog_toc: true
+      archive_date_format: October 2024
+      categories_allowed:
+          - Install
+          - Deploy
+# nav:
+#    - Home: index.md
+#    - Blog:
+#      - blog/deploy.md
+#      - blog/install.md
+
