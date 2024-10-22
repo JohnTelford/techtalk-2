@@ -15,7 +15,6 @@ Checkout the Material Mkdocs Basic Blogs tutorial [^1].
 
 Material Mkdddocs  documentation [^2]
 
-
 ## Environment 
 
 - Create new `GitHub` Repo
@@ -23,49 +22,66 @@ Material Mkdddocs  documentation [^2]
 
 Set up Python virtual environment
 
-``python -m venv venv``
-``source venv/bin/activate``
+```
+    python -m venv venv
+    source venv/bin/activate
+```
 
 ## Install Git
 
-``brew install git``
+```
+    brew install git
+```
 
 ## Install mkdocs
 
-``material mkdocs``:
+Add to mkdocs.yml  
 
-Open the cloned directoy in `vscode` then:
+```
+    theme:  
+        name: material
+```
 
-``mkdocs new .``
-``pip install mkdocs-material``
+Open the cloned directoy in `vscode` then:  
+
+```
+    git clone ...
+    cd to clone diretory
+
+    mkdocs new .
+    pip install mkdocs-material
+```
 
 ## Set Up Blog
 
-- If you have not done so already, create a project for your blog, then edit the ``mkdocs.yml`` file to make sure if has the following content:
+If you have not done so already, create a project for your blog, then edit the ``mkdocs.yml`` file to make sure if has the following content:
 
-`site_name:`example blog
-`site_description:`an example blog
-`site_url:` http://www.example.com
+```
+    site_name: example blog  
+    site_description: an example blog  
+    site_url: http://www.example.com  
+```
 
-
-- The blog plugin will create a directory structure for your blog posts if it does not exist, so simply run `mkdocs serve` will create the structure.
+The blog plugin will create a directory structure for your blog posts if it does not exist, so simply run `mkdocs serve` will create the structure.
 
 ## Directory structure
 
 ```
-docs
-    blog
-        index.md
-        posts
+    docs
+        blog
             index.md
+            posts
+                index.md
 ```
 
-Create a file `docs/blog/posts/myfirst.md` with the following contents:
+Create a file `docs/blog/posts/myfirst.md` with the following contents:  
 
----
-date:
-    created: 2023-12-31
----
+```
+    ---
+    date:
+        created: 2023-12-31
+    ---
+```
 
 ## First-Level Heading
 
