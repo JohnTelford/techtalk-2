@@ -5,3 +5,9 @@ site_url: https://github.com/JohnTelford/techtalkjohn-2
 theme:
   name: material
  
+plugins:
+- search
+- blog:
+    archive_date_format: MMMM УУУУ
+    categories_allowed:
+        - Article

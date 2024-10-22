@@ -1,6 +1,8 @@
 ---
 date:
     created: 2024-10-21
+    categories: Article
+  
 ---
 
 # Install Material Mkdocs Blog
