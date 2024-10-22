@@ -21,20 +21,24 @@ Material Mkdddocs  documentation [^2]
 
 Set up Python virtual environment
 
-    `python -m venv venv`
-    `source venv/bin/activate`
+``python -m venv venv``
+``source venv/bin/activate``
 
-## Install 
+## Install Git
+
+``brew install git``
+
+## Install mkdocs
 
 ``material mkdocs``:
 
 Open the cloned directoy in `vscode` then:
-    `mkdocs new .`
-    `pip install mkdocs-material`
+    ``mkdocs new .``
+    ``pip install mkdocs-material``
 
 ## Set Up Blog
 
-- If you have not done so already, create a project for your blog, then edit the `mkdocs.yml` file to make sure if has the following content:
+- If you have not done so already, create a project for your blog, then edit the ``mkdocs.yml`` file to make sure if has the following content:
 
 
     `site_name:`example blog
