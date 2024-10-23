@@ -28,12 +28,13 @@ markdown_extensions:
 
 plugins:
   - search
-  # - blog:
-      # blog_toc: true
-      # archive_date_format: October 2024
-      # categories_allowed:
-      #     - Install
-      #     - Deploy
+  - blog:
+      blog_toc: true
+      archive_date_format: October 2024
+      categories_allowed:
+          - Install
+          - Deploy
+          - Tools
 # nav:
 #    - Home: index.md
 #    - Blog:

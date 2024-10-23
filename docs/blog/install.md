@@ -1,7 +1,7 @@
 ---
 date:
     created: 2024-10-21
-categories:
+categories: 
     - Install
 ---
 
@@ -59,11 +59,11 @@ Directory structure
 Create a file `docs/blog/posts/myfirst.md` with the following contents:
     
 ````
----
-date:
-    created: 2023-12-31
----
-```
+    ---  
+    date:
+        created: 2023-12-31
+    ---
+````
 `
 ## First-Level Heading
 

@@ -1,9 +1,10 @@
 ---
 date:
     created: 2024-10-22
-    categories: Deploy
+categories:
+    - Deploy
 ---
 
-# Deploy
+# Deploy Material Mkdocs Blog
 
-The next step is configuring deplpyment
+The next step is configuring deplpoyment
