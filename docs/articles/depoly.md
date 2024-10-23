@@ -1,9 +1,9 @@
 ---
 date:
-    created: 2024-10-21
+    created: 2024-10-22
     categories: Deploy
 ---
 
 # Deploy
 
-The next stip is configuring deplpyment
+The next step is configuring deplpyment
