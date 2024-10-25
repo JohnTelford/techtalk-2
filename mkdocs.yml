@@ -30,7 +30,7 @@ plugins:
   - search
   - blog:
       blog_toc: true
-      archive_date_format: October 2024
+      # archive_date_format: October 2024
       categories_allowed:
           - Install
           - Deploy
