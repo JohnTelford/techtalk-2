@@ -9,11 +9,10 @@ categories:
 
 October 20, 2024
 
-> This summary webpage was created using `Draft` and `Marked 2` Steaming Preview.
+> Website is being created using `VScode` [^1], `Marked 2 Steaming Preview` [^2], `Material for MkDocs` [^3], `Github` [^4]
 
-Checkout the Material Mkdocs Basic Blogs tutorial [^1].
-
-Material Mkdddocs  documentation [^2]
+- Checkout the Material Mkdocs Basic Blogs tutorial [^1].
+- Material Mkdddocs  documentation [^2]
 
 
 ## Environment 
@@ -28,15 +27,13 @@ Set up Python virtual environment
 
 ## Install 
 
-``material mkdocs``:
-
 Open the cloned directoy in `vscode` then:
     `mkdocs new .`
     `pip install mkdocs-material`
 
 ## Set Up Blog
 
-- If you have not done so already, create a project for your blog, then edit the `mkdocs.yml` file to make sure if has the following content:
+- If you have not done so already, create a project for your blog, then edit the `mkdocs.yml` file to make sure it has the following content:
 
 
     `site_name:`example blog
@@ -64,7 +61,7 @@ date:
     created: 2023-12-31
 ---
 ```
-`
+
 ## First-Level Heading
 
 The blog plugin automatically creates navigation elements for the blog. The index page shows only the extract. When you select the "Continue
