@@ -11,8 +11,8 @@ October 20, 2024
 
 > Website is being created using `VScode` [^1], `Marked 2 Steaming Preview` [^2], `Material for MkDocs` [^3], `Github` [^4]
 
-- Checkout the Material Mkdocs Basic Blogs tutorial [^1].
-- Material Mkdddocs  documentation [^2]
+- Checkout the Material Mkdocs Basic Blogs tutorial [^5].
+- Material Mkdddocs  documentation [^6]
 
 
 ## Environment 
@@ -71,7 +71,16 @@ reading" link, you will get to the full blog post. Note how it has a URL generat
 
 ## Footnotes
 
-[^1]: [Material for MkDocs Basic Blog Tutorial](https://squidfunk.github.io/mkdocs-material/tutorials/blogs/basic/?h=blog)
+[^1]: [Visual Studio](https://code.visualstudio.com)
 
-[^2]: [Material for MkDocs Documentation](https://squidfunk.github.io/mkdocs-material/)
+[^2]: [Marked 2](https://marked2app.com)
 
+[^3]: [Materials Mkdocs](https://squidfunk.github.io/mkdocs-material/)
+
+[^4]: [GitHub](https://github.com)
+
+[^5]: [Material for MkDocs Basic Blog Tutorial](https://squidfunk.github.io/mkdocs-material/tutorials/blogs/basic/?h=blog)
+
+[^6]: [Material for MkDocs Documentation](https://squidfunk.github.io/mkdocs-material/)
+
+Markdown Preview Enhanced
