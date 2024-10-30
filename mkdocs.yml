@@ -18,6 +18,9 @@ theme:
       danger: octicons/zap-16
       bug: octicons/bug-16
 
+# features:
+#     - navigation.instant
+
 # #     - navigation.indexes
 
 markdown_extensions:
@@ -29,12 +32,14 @@ markdown_extensions:
 plugins:
   - search
   - blog:
+      blog_dir: .
       blog_toc: true
       # archive_date_format: October 2024
       categories_allowed:
           - Install
           - Deploy
           - Tools
+          - Cattest
 # nav:
 #    - Home: index.md
 #    - Blog:

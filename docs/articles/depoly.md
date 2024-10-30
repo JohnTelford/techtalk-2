@@ -2,6 +2,7 @@
 date:
     created: 2024-10-22
 categories:
+    - Cattest
     - Deploy
 ---
 

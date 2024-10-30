@@ -2,6 +2,7 @@
 date:
     created: 2024-10-21
 categories: 
+    - Cattest
     - Install
 ---
 
@@ -33,7 +34,7 @@ Set up Python virtual environment
     brew install git
 ```
 
-## Install mkdocs
+## Install
 
 Add to mkdocs.yml  
 
