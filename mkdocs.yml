@@ -32,19 +32,28 @@ markdown_extensions:
 plugins:
   - search
   - blog:
-      blog_dir: .
+      blog_dir: "{blog}/articles"
       blog_toc: true
-      # archive_date_format: October 2024
-      categories_allowed:
-          - Install
-          - Deploy
-          - Tools
-          - Cattest
-# nav:
-#    - Home: index.md
-#    - Blog:
-#      - blog/posts/deploy.md
-#      - blog/posts/install.md
+      archive_date_format: medium
+      archive_toc: true
+      post_url_date_format: yyyy/MM/dd
+      post_excerpt_max_categories: 1
+      archive_date_format: MMMM yyyy
 
+      # Blog categories
+      categories: true
+      categories_allowed:
+        - Install
+        - Deploy
+        - Tools
+        - Cattest
+      categories_toc: true
+      categories_name: "Blog Topics"
+      categories_pagination: true
+      categories_pagination_per_page: 5
+nav:
+  - Home: index.md
+  - Blog:
+      - blog/index.md
 
 copyright: Copyright &copy; 2024 - John M. Telford
