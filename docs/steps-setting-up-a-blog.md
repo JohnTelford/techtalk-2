@@ -1,23 +1,29 @@
 # Setting up a blog
 
+```
 [ ] plugins:
         - blog
-
+```
+```
 [ ] nav:
     - index.md
     - Blog:
         - blog/index.md
         - blog dir: .
-  
+```
+---
+
 ## posts
 
-[ ]
+```
+[ ] post:
     ├─ docs/
     │  └─ blog/
     │     ├─ posts/
     │     │  └─ hello-world.md
     │     └─ index.md
     └─ mkdocs.yml
+```
 
 ```
 ---
@@ -28,7 +34,9 @@ date: 2024-01-31
 ---
 ```
 
-`# Hello world!`
+`Hello world!`
+
+---
 
 ## nav
 
@@ -46,6 +54,8 @@ links:
 # Hello world!
 ```
 
+---
+
 ## linking
 
 linking to a post
@@ -60,11 +70,15 @@ linking from a post
 [Blog](../index.md)
 ```
 
+---
+
 ## pinning a post
 
 ```
 [Blog](../index.md)
 ```
+
+---
 
 ## meta.yml
 
@@ -85,6 +99,8 @@ plugins:
   - blog 
 ```
 
+---
+
 ## adding pages
 
 ```
@@ -94,3 +110,55 @@ nav:
     - blog/authors.md
       ...
 ```
+
+---
+---
+
+# material mkdocs categories
+
+```
+pip install mkdocs-categories-plugin
+---
+date: 2024-01-31
+categories:
+  - Hello
+  - World
+---
+# Hello world!
+```
+
+---
+
+```
+plugins:
+    - categorie4
+    - search
+    - blog:
+        archive_date_format: MMMM yyyy
+        categories_allowed:
+            - Holidays
+            - News
+```
+
+---
+
+## front matter
+
+```
+---
+categories:
+  - Novels
+  - Fiction
+  - 19th Century Gothic Fiction
+---
+```
+
+```
+plugins:
+  - categories:
+      generate_index: true
+      section_title: 'Categories'
+      category_separator: '|'
+```
+
+---
