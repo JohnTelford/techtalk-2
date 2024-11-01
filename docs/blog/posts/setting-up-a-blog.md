@@ -511,7 +511,7 @@ as a link reference (links must be relative):
 Linking from a post to a page, e.g. the index, follows the same method:
 
 ``` markdown
-[Blog](../index.md)
+[Blog](../../index.md)
 ```
 
 All assets inside the `posts` directory are copied to the `blog/assets` folder

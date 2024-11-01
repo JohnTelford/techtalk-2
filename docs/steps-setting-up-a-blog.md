@@ -1,0 +1,96 @@
+# Setting up a blog
+
+[ ] plugins:
+        - blog
+
+[ ] nav:
+    - index.md
+    - Blog:
+        - blog/index.md
+        - blog dir: .
+  
+## posts
+
+[ ]
+    ├─ docs/
+    │  └─ blog/
+    │     ├─ posts/
+    │     │  └─ hello-world.md
+    │     └─ index.md
+    └─ mkdocs.yml
+
+```
+---
+date: 2024-01-31
+    categories:
+        \- Hello
+        \- World
+---
+```
+
+`# Hello world!`
+
+## nav
+
+```
+---
+date: 2024-01-31
+links:
+  - plugins/search.md
+  - insiders/how-to-sponsor.md
+  - Nested section:
+    - External link: https://example.com
+    - setup/setting-up-site-search.md
+---
+
+# Hello world!
+```
+
+## linking
+
+linking to a post
+
+```
+[Hello World!](blog/posts/hello-world.md)
+```
+
+linking from a post
+
+```
+[Blog](../index.md)
+```
+
+## pinning a post
+
+```
+[Blog](../index.md)
+```
+
+## meta.yml
+
+define all front matter
+properties that are valid in posts
+
+```
+authors:
+  - squidfunk
+categories:
+  - Hello
+  - World
+```
+
+```
+plugins:
+  - meta
+  - blog 
+```
+
+## adding pages
+
+```
+nav:
+  - Blog:
+    - blog/index.md
+    - blog/authors.md
+      ...
+```
