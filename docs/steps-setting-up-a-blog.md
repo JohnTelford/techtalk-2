@@ -1,3 +1,4 @@
+# Install Material Mkdocs
 
 ## Environment 
 
@@ -9,15 +10,9 @@ Set up Python virtual environment
     `python -m venv venv`
     `source venv/bin/activate`
 
-## Install 
-
-``material mkdocs``:
-
 Open the cloned directoy in `vscode` then:
-    `mkdocs new .`
-    `pip install mkdocs-material`
-
-
+- `mkdocs new .`
+- `pip install mkdocs-material`
 
 ---
 
