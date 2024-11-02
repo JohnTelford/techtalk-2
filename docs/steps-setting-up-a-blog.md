@@ -28,6 +28,7 @@ Open the cloned directoy in `vscode` then:
 [ ] plugins:
         - blog
 ```
+
 ```
 [ ] nav:
     - index.md
@@ -53,8 +54,8 @@ Open the cloned directoy in `vscode` then:
 ---
 date: 2024-01-31
     categories:
-        \- Hello
-        \- World
+        - Hello
+        - World
 ---
 ```
 
@@ -155,7 +156,7 @@ categories:
 
 ```
 plugins:
-    - categorie4
+    - categories
     - search
     - blog:
         archive_date_format: MMMM yyyy
