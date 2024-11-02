@@ -1,5 +1,11 @@
 # Install Material Mkdocs
 
+Checkout the Material Mkdocs Basic Blogs tutorial [^1].
+
+Material Mkdddocs  documentation [^2]
+
+---
+
 ## Environment 
 
 - Create new `GitHub` Repo
@@ -180,3 +186,9 @@ plugins:
 ```
 
 ---
+
+## Footnotes
+
+[^1]: [Material for MkDocs Basic Blog Tutorial](https://squidfunk.github.io/mkdocs-material/tutorials/blogs/basic/?h=blog)
+
+[^2]: [Material for MkDocs Documentation](https://squidfunk.github.io/mkdocs-material/)
