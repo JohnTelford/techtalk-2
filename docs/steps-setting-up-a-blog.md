@@ -1,3 +1,26 @@
+
+## Environment 
+
+- Create new `GitHub` Repo
+- `git clone` - new repo
+
+Set up Python virtual environment
+
+    `python -m venv venv`
+    `source venv/bin/activate`
+
+## Install 
+
+``material mkdocs``:
+
+Open the cloned directoy in `vscode` then:
+    `mkdocs new .`
+    `pip install mkdocs-material`
+
+
+
+---
+
 # Setting up a blog
 
 ```
