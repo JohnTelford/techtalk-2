@@ -17,10 +17,25 @@ Set up Python virtual environment
     `source venv/bin/activate`
 
 Open the cloned directoy in `vscode` then:
-- `mkdocs new .`
+
+Check if mkdocs is installed
+
+- `mkdocs --version`
+
+If not installed
+
 - `pip install mkdocs-material`
 
+Install git
+
+- `cd docs`
+- `git init`
+  
 ---
+
+Install the theme
+
+pip install -e mkdocs-material
 
 # Setting up a blog
 
@@ -36,6 +51,7 @@ Open the cloned directoy in `vscode` then:
         - blog/index.md
         - blog dir: .
 ```
+
 ---
 
 ## posts
