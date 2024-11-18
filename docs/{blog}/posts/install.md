@@ -2,7 +2,6 @@
 date:
     created: 2024-10-21
 categories: 
-    - Cattest
     - Install
 ---
 
@@ -16,7 +15,7 @@ Checkout the Material Mkdocs Basic Blogs tutorial [^1].
 
 Material Mkdddocs  documentation [^2]
 
-## Environment 
+## Environment
 
 - Create new `GitHub` Repo
 - `git clone` - new repo
