@@ -52,6 +52,7 @@ Open the cloned directoy in `vscode` then:
     pip install mkdocs-material
 ```
 
+
 ## Set Up Blog
 
 If you have not done so already, create a project for your blog, then edit the ``mkdocs.yml`` file to make sure if has the following content:

@@ -11,3 +11,10 @@ The next step is configuring deplpoyment
 let’s see what happens
 ok
 
+## Yep deploy
+
+we are going to deploy
+
+- today
+
+- yesterday
